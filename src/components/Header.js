@@ -63,7 +63,6 @@ export default class Header extends React.Component {
     }
 
     render() {
-        console.lgo('test');
         const page = _.get(this.props, 'page');
         const pageUrl = _.trim(getPageUrl(page), '/');
         const config = _.get(this.props, 'config');
